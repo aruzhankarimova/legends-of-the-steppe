@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="100%" height="100%">
+  <defs>
+    <radialGradient id="symTulparGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffe066" stop-opacity="0.85"/>
+      <stop offset="45%" stop-color="#d4af37" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#0b172a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="300" height="300" rx="16" fill="#0b1627"/>
+  <circle cx="150" cy="150" r="120" fill="url(#symTulparGlow)"/>
+
+  <!-- Outer Ring with Stars -->
+  <circle cx="150" cy="150" r="105" fill="#112138" stroke="#d4af37" stroke-width="2"/>
+  <circle cx="150" cy="150" r="95" fill="#182c4a" stroke="#ffd166" stroke-width="1" stroke-dasharray="3,4"/>
+
+  <!-- Tulpar (Winged Steed) Silhouette & Golden Wing -->
+  <g transform="translate(150, 150)">
+    <!-- Galloping / Rearing Celestial Horse Body -->
+    <!-- Hind Quarters & Legs Rearing -->
+    <path d="M-60 40 C-75 25 -70 5 -55 -10 C-40 -20 -20 -15 0 -5 L15 15 C2 25 -15 45 -40 50 L-50 75 L-62 70 L-55 45 Z" fill="#2d3748" stroke="#d4af37" stroke-width="1"/>
+    <!-- Flowing Tail -->
+    <path d="M-65 15 C-85 10 -95 30 -90 55 C-80 40 -75 28 -65 22" fill="#ffd166"/>
+    
+    <!-- Chest, Arched Neck & Proud Head -->
+    <path d="M-10 -15 C-5 -35 15 -55 35 -65 C45 -70 55 -65 52 -55 C50 -45 35 -35 30 -20 L40 -10 C45 5 40 25 30 45 L35 75 L22 75 L20 40 C10 40 0 10 -10 -15 Z" fill="#2d3748" stroke="#d4af37" stroke-width="1"/>
+    <!-- Horse Ears -->
+    <polygon points="35,-65 42,-78 45,-64" fill="#ffd166"/>
+    <polygon points="40,-63 48,-75 50,-62" fill="#ffd166"/>
+    <!-- Mane of Wind -->
+    <path d="M12 -38 Q22 -55 36 -62" stroke="#ffd166" stroke-width="2.5" fill="none"/>
+    <path d="M5 -25 Q15 -42 28 -48" stroke="#ffffff" stroke-width="2" fill="none"/>
+
+    <!-- Magnificent Golden Wings (Qanat) Outstretched -->
+    <path d="M-10 -10 C-15 -45 -5 -80 35 -85 C20 -60 10 -40 5 -20 Z" fill="#ffd166" stroke="#ffffff" stroke-width="1"/>
+    <path d="M-15 0 C-30 -35 -20 -70 18 -75 C8 -50 0 -30 -3 -10 Z" fill="#d4af37"/>
+    <path d="M-20 10 C-45 -20 -35 -55 -2 -60 C-10 -40 -15 -20 -12 0 Z" fill="#b38a28"/>
+
+    <!-- Stars around Tulpar Hooves -->
+    <circle cx="45" cy="70" r="2.5" fill="#ffffff"/>
+    <circle cx="-55" cy="72" r="2" fill="#ffffff"/>
+    <circle cx="-10" cy="-65" r="2" fill="#ffd166"/>
+  </g>
+</svg>
+

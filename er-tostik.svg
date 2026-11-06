@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="tostikBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0b172a"/>
+      <stop offset="60%" stop-color="#1e1828"/>
+      <stop offset="100%" stop-color="#3b1f14"/>
+    </linearGradient>
+    <radialGradient id="portalGlow" cx="50%" cy="45%" r="50%">
+      <stop offset="0%" stop-color="#ffb703" stop-opacity="0.9"/>
+      <stop offset="35%" stop-color="#fb8500" stop-opacity="0.4"/>
+      <stop offset="80%" stop-color="#1e1828" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Underworld / Magical Realm Background -->
+  <rect width="600" height="400" fill="url(#tostikBg)"/>
+  
+  <!-- Glowing Portal / Underworld Entrance -->
+  <circle cx="310" cy="180" r="160" fill="url(#portalGlow)"/>
+
+  <!-- Underground / Steppe Cavern Spire Structures -->
+  <path d="M0 400 L60 260 L120 400 L180 290 L240 400 L600 400 Z" fill="#0d0d12" opacity="0.85"/>
+  <path d="M600 400 L540 250 L480 390 L420 280 L360 400 Z" fill="#140e1a" opacity="0.8"/>
+
+  <!-- Celestial Magic / Iron Horn sparks -->
+  <g fill="#ffd166" opacity="0.8">
+    <circle cx="210" cy="110" r="2"/>
+    <circle cx="250" cy="80" r="1.5"/>
+    <circle cx="370" cy="90" r="2.5"/>
+    <circle cx="410" cy="125" r="1.5"/>
+    <circle cx="320" cy="65" r="3"/>
+  </g>
+
+  <!-- Hero Er Töstik and Faithful Steed Chal-Kuyruk (Şalqūyrıq) -->
+  <g transform="translate(160, 110)">
+    <!-- Horse Silhouette with Golden Armor -->
+    <!-- Tail (Chal-Kuyruk means Bald/Short/Braided Tail with magical power) -->
+    <path d="M30 160 C15 150 10 135 15 115 C20 125 35 135 45 140 Z" fill="#d4af37" opacity="0.9"/>
+    
+    <!-- Horse Body -->
+    <path d="M45 135 C50 115 70 105 105 105 C140 105 175 110 195 130 C205 140 200 160 190 175 L180 230 L165 230 L170 175 C150 178 120 180 95 180 L85 230 L70 230 L75 170 C60 170 50 160 45 135 Z" fill="#161214"/>
+    
+    <!-- Horse Neck & Head Raised Heroically -->
+    <path d="M170 120 C185 95 195 65 210 45 C215 38 225 40 230 45 C235 52 230 65 220 75 L235 70 C242 75 238 85 228 90 L195 130 Z" fill="#161214"/>
+    <!-- Mane with magical glow -->
+    <path d="M172 105 Q185 70 205 50" stroke="#d4af37" stroke-width="3" fill="none"/>
+    <path d="M176 112 Q190 80 210 60" stroke="#ffd166" stroke-width="2" fill="none"/>
+    
+    <!-- Er Töstik (Hero) mounted on horse -->
+    <!-- Torso in Lamellar Armor -->
+    <path d="M115 65 L135 65 L145 115 L105 115 Z" fill="#2d3748" stroke="#d4af37" stroke-width="1.2"/>
+    <!-- Armor plates pattern -->
+    <line x1="110" y1="80" x2="140" y2="80" stroke="#d4af37" stroke-width="1"/>
+    <line x1="108" y1="95" x2="142" y2="95" stroke="#d4af37" stroke-width="1"/>
+    
+    <!-- Batyr Helmet (Dulyga) with Plume -->
+    <path d="M115 50 C115 35 125 25 125 25 C125 25 135 35 135 50 Z" fill="#d4af37"/>
+    <!-- Owl feather / Aibash on helmet -->
+    <path d="M125 25 Q120 10 122 2 Q126 10 125 25" fill="#f8f9fa"/>
+    <circle cx="125" cy="50" r="10" fill="#1e1814"/>
+
+    <!-- Left Arm holding Bow (Sadaq) -->
+    <path d="M105 75 L80 65" stroke="#2d3748" stroke-width="5" stroke-linecap="round"/>
+    <path d="M70 40 Q88 65 72 90" stroke="#d4af37" stroke-width="3" fill="none"/>
+    <line x1="70" y1="40" x2="72" y2="90" stroke="#ffffff" stroke-width="0.8"/>
+
+    <!-- Right Arm holding Glowing Spear / Sword of Truth -->
+    <path d="M140 75 L170 55" stroke="#2d3748" stroke-width="5" stroke-linecap="round"/>
+    <line x1="160" y1="62" x2="225" y2="18" stroke="#ffb703" stroke-width="3" stroke-linecap="round"/>
+    <!-- Glowing spear tip -->
+    <polygon points="225,18 235,12 232,24" fill="#ffffff" stroke="#ffb703" stroke-width="1"/>
+  </g>
+
+  <!-- Mystical Underworld Snake / Aydahar Shadow at edge -->
+  <path d="M420 330 Q460 300 500 320 T580 290" stroke="#e63946" stroke-width="3" fill="none" opacity="0.6"/>
+  <circle cx="580" cy="290" r="4" fill="#e63946"/>
+
+  <!-- Ornamental Kazakh Motifs on Border -->
+  <g stroke="#d4af37" stroke-width="1.5" fill="none" opacity="0.5">
+    <rect x="15" y="15" width="570" height="370" rx="4"/>
+    <circle cx="300" cy="15" r="5" fill="#d4af37"/>
+    <circle cx="300" cy="385" r="5" fill="#d4af37"/>
+  </g>
+</svg>
+

@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="batirBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#070d18"/>
+      <stop offset="50%" stop-color="#141f33"/>
+      <stop offset="85%" stop-color="#242b3b"/>
+      <stop offset="100%" stop-color="#12151c"/>
+    </linearGradient>
+    <radialGradient id="batirMoon" cx="75%" cy="30%" r="40%">
+      <stop offset="0%" stop-color="#ffea79" stop-opacity="0.9"/>
+      <stop offset="40%" stop-color="#d4af37" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#141f33" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background Sky -->
+  <rect width="600" height="400" fill="url(#batirBg)"/>
+
+  <!-- Steppe Full Moon -->
+  <circle cx="450" cy="110" r="110" fill="url(#batirMoon)"/>
+  <circle cx="450" cy="110" r="35" fill="#fcf6e8"/>
+
+  <!-- Distant Fortress & Steppe Mountains (Jide-Baysyn) -->
+  <path d="M0 290 L120 220 L240 260 L360 210 L480 250 L600 230 L600 400 L0 400 Z" fill="#131a26" opacity="0.8"/>
+  <path d="M360 210 L370 195 L390 195 L390 220 Z" fill="#1c2536"/>
+  <path d="M420 230 L430 215 L450 215 L450 240 Z" fill="#1c2536"/>
+
+  <!-- Alpamıs Batır & Loyal Warhorse Bayşubar -->
+  <g transform="translate(110, 110)">
+    <!-- Bayşubar (Warhorse) Head and Powerful Neck -->
+    <path d="M60 170 C50 140 60 100 85 70 C95 55 105 45 120 40 C130 38 140 45 135 60 C130 75 110 95 115 115 C120 135 115 160 110 180 Z" fill="#1a1c24"/>
+    <!-- Horse Muzzle & Ears -->
+    <path d="M120 40 C125 30 135 25 140 32 C145 40 138 52 130 55 Z" fill="#1a1c24"/>
+    <polygon points="115,40 118,22 125,35" fill="#1a1c24"/>
+    <polygon points="122,38 126,24 132,35" fill="#1a1c24"/>
+    <!-- Horse Bridle & Golden Ornaments (Er-toqym) -->
+    <path d="M128 36 L115 55 L90 85" stroke="#d4af37" stroke-width="1.8" fill="none"/>
+    <circle cx="115" cy="55" r="3" fill="#ffd166"/>
+    <!-- Horse Flowing Mane -->
+    <path d="M85 70 Q95 85 88 100 Q100 115 92 135" stroke="#d4af37" stroke-width="2.5" fill="none" opacity="0.8"/>
+
+    <!-- Alpamıs Batır (Standing Proudly with Armor & Shield) -->
+    <!-- Cloak / Plashch -->
+    <path d="M150 70 C135 95 125 140 120 190 L220 190 C220 150 215 100 190 70 Z" fill="#7a2419"/>
+    
+    <!-- Torso Armor / Kirewke Saurut (Scale/Ring armor) -->
+    <path d="M150 75 L190 75 L195 140 L145 140 Z" fill="#2d3748" stroke="#d4af37" stroke-width="1.5"/>
+    <!-- Central Solar Boss / Golden Plaque on Chest -->
+    <circle cx="170" cy="105" r="16" fill="#1f2937" stroke="#ffd166" stroke-width="2"/>
+    <circle cx="170" cy="105" r="6" fill="#ffd166"/>
+    <!-- Golden Belts with Nomad Plaques -->
+    <line x1="145" y1="135" x2="195" y2="135" stroke="#d4af37" stroke-width="3"/>
+    <circle cx="155" cy="135" r="2.5" fill="#ffffff"/>
+    <circle cx="170" cy="135" r="2.5" fill="#ffffff"/>
+    <circle cx="185" cy="135" r="2.5" fill="#ffffff"/>
+
+    <!-- Helmet (Dulyga) with Cheek Plates & Crest -->
+    <path d="M155 52 C155 30 170 18 170 18 C170 18 185 30 185 52 Z" fill="#c59e3f" stroke="#ffffff" stroke-width="0.8"/>
+    <!-- Helmet Spire & Eagle Feather (Yki) -->
+    <line x1="170" y1="18" x2="170" y2="2" stroke="#d4af37" stroke-width="2"/>
+    <path d="M170 2 Q178 -10 174 -18 Q166 -10 170 2" fill="#f8f9fa"/>
+    <!-- Warrior Face profile -->
+    <circle cx="170" cy="50" r="12" fill="#2d3748"/>
+    <!-- Valiant Gaze -->
+    <circle cx="174" cy="48" r="2" fill="#ffea79"/>
+
+    <!-- Left Arm holding Round Nomad Shield (Qalqan) -->
+    <ellipse cx="140" cy="120" rx="26" ry="32" fill="#1f2937" stroke="#d4af37" stroke-width="2.5"/>
+    <!-- Kazakh Sun Pattern on Shield -->
+    <circle cx="140" cy="120" r="12" fill="#2b1a14" stroke="#ffd166" stroke-width="1.5"/>
+    <path d="M140 98 L140 142 M118 120 L162 120" stroke="#ffd166" stroke-width="1.2"/>
+
+    <!-- Right Hand Holding the Battle Spear (Nayza) with Horsetail Plume -->
+    <line x1="215" y1="-25" x2="185" y2="195" stroke="#d4af37" stroke-width="3.5" stroke-linecap="round"/>
+    <!-- Spearhead (Temir Ush) -->
+    <polygon points="215,-25 210,-48 215,-55 220,-48" fill="#e2e8f0" stroke="#ffd166" stroke-width="1.2"/>
+    <!-- Horsetail Battle Pennant (Jalau / Tu) on Spear -->
+    <path d="M214 -20 C225 -10 230 10 220 25 C216 15 214 -5 214 -20" fill="#f8f9fa" opacity="0.9"/>
+  </g>
+
+  <!-- Foreground Steppe Ground -->
+  <path d="M0 310 Q280 270 600 300 L600 400 L0 400 Z" fill="#0f131a"/>
+
+  <!-- Steppe Wind Lines -->
+  <g stroke="#d4af37" stroke-width="0.8" opacity="0.4" fill="none">
+    <path d="M30 350 Q120 340 220 345"/>
+    <path d="M380 340 Q470 330 570 345"/>
+  </g>
+
+  <!-- Kazakh Ornamental Frame Details -->
+  <g stroke="#d4af37" stroke-width="1.5" fill="none" opacity="0.5">
+    <rect x="15" y="15" width="570" height="370" rx="4"/>
+    <circle cx="300" cy="15" r="4" fill="#d4af37"/>
+    <circle cx="300" cy="385" r="4" fill="#d4af37"/>
+  </g>
+</svg>
+

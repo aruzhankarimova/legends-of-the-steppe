@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="cosmicSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#040814"/>
+      <stop offset="40%" stop-color="#0b1b36"/>
+      <stop offset="85%" stop-color="#16294a"/>
+      <stop offset="100%" stop-color="#241b12"/>
+    </linearGradient>
+    <radialGradient id="eggGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="25%" stop-color="#ffea79"/>
+      <stop offset="60%" stop-color="#d4af37"/>
+      <stop offset="100%" stop-color="#0b1b36" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="sunAura" cx="50%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#ffb703" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#d4af37" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#040814" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Cosmic Background -->
+  <rect width="600" height="400" fill="url(#cosmicSky)"/>
+  <rect width="600" height="400" fill="url(#sunAura)"/>
+
+  <!-- Stars & Constellations -->
+  <g fill="#ffffff" opacity="0.7">
+    <circle cx="90" cy="50" r="1.5"/>
+    <circle cx="150" cy="110" r="1"/>
+    <circle cx="210" cy="40" r="2"/>
+    <circle cx="430" cy="60" r="1.5"/>
+    <circle cx="510" cy="95" r="2"/>
+    <circle cx="530" cy="40" r="1"/>
+  </g>
+
+  <!-- Bayterek Tree of Life (Trunk and Roots) -->
+  <!-- Roots into the underworld (Kok-Tengri & Jer-Su) -->
+  <g stroke="#8c6d3b" stroke-linecap="round" fill="none">
+    <path d="M300 400 C290 360 270 330 280 290" stroke-width="26"/>
+    <path d="M280 290 C285 240 295 180 300 130" stroke-width="18"/>
+    <!-- Branching Roots -->
+    <path d="M285 360 C240 375 210 395 170 400" stroke-width="7"/>
+    <path d="M305 365 C345 375 380 390 420 400" stroke-width="8"/>
+    <path d="M290 380 C270 390 250 398 230 400" stroke-width="5"/>
+    <path d="M305 385 C320 392 350 396 370 400" stroke-width="5"/>
+  </g>
+
+  <!-- Bayterek Branches reaching for Heaven -->
+  <g stroke="#c59e3f" stroke-linecap="round" fill="none">
+    <!-- Left Major Branch -->
+    <path d="M295 160 C260 140 200 130 150 90" stroke-width="8"/>
+    <path d="M220 135 C180 115 155 70 120 50" stroke-width="4"/>
+    <path d="M250 145 C230 110 190 95 170 70" stroke-width="4"/>
+    <!-- Right Major Branch -->
+    <path d="M305 160 C340 140 400 130 450 90" stroke-width="8"/>
+    <path d="M380 135 C420 115 445 70 480 50" stroke-width="4"/>
+    <path d="M350 145 C370 110 410 95 430 70" stroke-width="4"/>
+    <!-- Center Upward Boughs -->
+    <path d="M298 135 C290 100 270 70 260 40" stroke-width="6"/>
+    <path d="M302 135 C310 100 330 70 340 40" stroke-width="6"/>
+  </g>
+
+  <!-- Nest of Samruk at the Crown -->
+  <ellipse cx="300" cy="115" rx="55" ry="12" fill="#4a361c" stroke="#d4af37" stroke-width="2"/>
+  <ellipse cx="300" cy="113" rx="48" ry="8" fill="#2d1f10"/>
+
+  <!-- Golden Egg (Altyn Zhumyrtka) of Samruk / Rebirth Sun -->
+  <circle cx="300" cy="100" r="50" fill="url(#eggGlow)"/>
+  <ellipse cx="300" cy="100" rx="22" ry="28" fill="#ffdf73" stroke="#ffffff" stroke-width="1.5"/>
+
+  <!-- Mythological Bird Samruk Descending with Outspread Wings -->
+  <g transform="translate(300, 75)">
+    <!-- Body & Golden Feathers -->
+    <path d="M0 -30 C-8 -25 -10 -15 -10 5 C-10 15 0 25 0 25 C0 25 10 15 10 5 C10 -15 8 -25 0 -30 Z" fill="#ffffff" stroke="#d4af37" stroke-width="1.5"/>
+    
+    <!-- Noble Bird Head with Crest -->
+    <circle cx="0" cy="-34" r="8" fill="#f8f9fa"/>
+    <!-- Golden Crest Plume -->
+    <path d="M0 -42 C-4 -52 -10 -58 -18 -55 C-12 -46 -6 -40 0 -42" fill="#ffd166"/>
+    <path d="M0 -42 C4 -52 10 -58 18 -55 C12 -46 6 -40 0 -42" fill="#ffd166"/>
+    <!-- Beak -->
+    <polygon points="0,-36 -4,-33 0,-30" fill="#d4af37"/>
+    <!-- Eye -->
+    <circle cx="-2" cy="-35" r="1.5" fill="#0b1b36"/>
+
+    <!-- Magnificent Left Wing (Multi-tiered golden plumage) -->
+    <!-- Primary tier -->
+    <path d="M-8 -10 C-40 -35 -100 -55 -170 -40 C-140 -15 -90 5 -50 15 C-25 12 -12 5 -8 -10 Z" fill="#ffd166" stroke="#d4af37" stroke-width="1.5" opacity="0.95"/>
+    <!-- Secondary feathers -->
+    <path d="M-10 5 C-45 0 -95 10 -145 25 C-115 35 -75 32 -40 28 C-20 22 -12 12 -10 5 Z" fill="#f5c242" opacity="0.85"/>
+    <!-- Long Flight Quills -->
+    <path d="M-170 -40 Q-150 -10 -185 5 M-160 -45 Q-140 -20 -170 -15 M-145 -50 Q-125 -25 -150 -25" stroke="#d4af37" stroke-width="1.8" fill="none"/>
+
+    <!-- Magnificent Right Wing -->
+    <path d="M8 -10 C40 -35 100 -55 170 -40 C140 -15 90 5 50 15 C25 12 12 5 8 -10 Z" fill="#ffd166" stroke="#d4af37" stroke-width="1.5" opacity="0.95"/>
+    <!-- Secondary feathers -->
+    <path d="M10 5 C45 0 95 10 145 25 C115 35 75 32 40 28 C20 22 12 12 10 5 Z" fill="#f5c242" opacity="0.85"/>
+    <!-- Long Flight Quills -->
+    <path d="M170 -40 Q150 -10 185 5 M160 -45 Q140 -20 170 -15 M145 -50 Q125 -25 150 -25" stroke="#d4af37" stroke-width="1.8" fill="none"/>
+
+    <!-- Majestic Peacock/Phoenix-like Tail Streamers -->
+    <path d="M-4 25 C-12 55 -25 80 -35 110 C-20 90 -10 65 -2 25" fill="#f5c242" opacity="0.85"/>
+    <path d="M4 25 C12 55 25 80 35 110 C20 90 10 65 2 25" fill="#f5c242" opacity="0.85"/>
+    <circle cx="-35" cy="110" r="4" fill="#d4af37"/>
+    <circle cx="35" cy="110" r="4" fill="#d4af37"/>
+  </g>
+
+  <!-- Golden Radiance Particles -->
+  <g fill="#ffffff" opacity="0.8">
+    <circle cx="280" cy="45" r="1.5"/>
+    <circle cx="320" cy="45" r="1.5"/>
+    <circle cx="260" cy="70" r="2"/>
+    <circle cx="340" cy="70" r="2"/>
+  </g>
+
+  <!-- Kazakh Ornamental Frame Details -->
+  <g stroke="#d4af37" stroke-width="1.5" fill="none" opacity="0.5">
+    <rect x="15" y="15" width="570" height="370" rx="4"/>
+    <path d="M15 35 C30 35 35 30 35 15"/>
+    <path d="M585 35 C570 35 565 30 565 15"/>
+    <path d="M15 365 C30 365 35 370 35 385"/>
+    <path d="M585 365 C570 365 565 370 565 385"/>
+  </g>
+</svg>
+
