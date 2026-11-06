@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 40" width="100%" height="100%">
+  <!-- Central Diamond -->
+  <polygon points="160,10 170,20 160,30 150,20" fill="#ffd166"/>
+  <circle cx="160" cy="20" r="3" fill="#0b1325"/>
+  
+  <!-- Left Wing Ram's Horn (Qoşqar Müyiz) Motif -->
+  <path d="M145 20 C130 5 110 5 110 18 C110 26 118 30 126 25 C132 20 125 15 120 18
+           M110 20 C95 5 75 5 75 18 C75 26 83 30 91 25 C97 20 90 15 85 18
+           M75 20 L10 20" 
+        stroke="#d4af37" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <circle cx="10" cy="20" r="3" fill="#ffd166"/>
+
+  <!-- Right Wing Ram's Horn (Qoşqar Müyiz) Motif -->
+  <path d="M175 20 C190 5 210 5 210 18 C210 26 202 30 194 25 C188 20 195 15 200 18
+           M210 20 C225 5 245 5 245 18 C245 26 237 30 229 25 C223 20 230 15 235 18
+           M245 20 L310 20" 
+        stroke="#d4af37" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <circle cx="310" cy="20" r="3" fill="#ffd166"/>
+</svg>
+

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="100%" height="100%">
+  <defs>
+    <radialGradient id="symSamrukGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffea79" stop-opacity="0.9"/>
+      <stop offset="45%" stop-color="#d4af37" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#0b172a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="300" height="300" rx="16" fill="#0d1829"/>
+  <circle cx="150" cy="150" r="120" fill="url(#symSamrukGlow)"/>
+  
+  <!-- Outer Kazakh Sun Disk with Ray Teeth -->
+  <circle cx="150" cy="150" r="105" fill="none" stroke="#d4af37" stroke-width="1.5" stroke-dasharray="4,6"/>
+  <circle cx="150" cy="150" r="95" fill="#11223b" stroke="#ffd166" stroke-width="2"/>
+
+  <!-- Golden Samruk Emblem -->
+  <g transform="translate(150, 150)">
+    <!-- Bird Crown / Sun Crest -->
+    <path d="M0 -65 C-8 -78 -18 -82 -25 -75 C-18 -68 -10 -60 0 -65" fill="#ffe066"/>
+    <path d="M0 -65 C8 -78 18 -82 25 -75 C18 -68 10 -60 0 -65" fill="#ffe066"/>
+    <circle cx="0" cy="-78" r="4" fill="#ffffff"/>
+    
+    <!-- Bird Head -->
+    <path d="M0 -55 C-8 -50 -12 -40 -12 -30 C-12 -20 0 -10 0 -10 C0 -10 12 -20 12 -30 C12 -40 8 -50 0 -55 Z" fill="#ffd166"/>
+    <polygon points="0,-48 -7,-44 0,-40" fill="#ffffff"/>
+    <circle cx="-3" cy="-44" r="1.5" fill="#0b172a"/>
+
+    <!-- Left Wing Wingspan -->
+    <path d="M-8 -30 C-35 -60 -75 -65 -85 -45 C-65 -25 -40 -10 -15 -8 Z" fill="#f5c242"/>
+    <path d="M-12 -15 C-45 -35 -75 -35 -80 -15 C-60 0 -35 8 -15 8 Z" fill="#d4af37"/>
+    <path d="M-15 0 C-40 -10 -65 -5 -70 12 C-50 20 -30 20 -15 15 Z" fill="#b38a28"/>
+
+    <!-- Right Wing Wingspan -->
+    <path d="M8 -30 C35 -60 75 -65 85 -45 C65 -25 40 -10 15 -8 Z" fill="#f5c242"/>
+    <path d="M12 -15 C45 -35 75 -35 80 -15 C60 0 35 8 15 8 Z" fill="#d4af37"/>
+    <path d="M15 0 C40 -10 65 -5 70 12 C50 20 30 20 15 15 Z" fill="#b38a28"/>
+
+    <!-- Golden Egg Clutched in Talons / Renewal Motif -->
+    <ellipse cx="0" cy="40" rx="20" ry="26" fill="#ffe066" stroke="#ffffff" stroke-width="1.5"/>
+    <circle cx="-4" cy="34" r="5" fill="#ffffff" opacity="0.6"/>
+
+    <!-- Tail Plumage -->
+    <path d="M-6 15 C-15 40 -20 65 -25 75 C-12 60 -5 45 -2 20" fill="#ffd166"/>
+    <path d="M6 15 C15 40 20 65 25 75 C12 60 5 45 2 20" fill="#ffd166"/>
+  </g>
+</svg>
+

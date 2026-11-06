@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="korkytBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#08101e"/>
+      <stop offset="60%" stop-color="#182944"/>
+      <stop offset="100%" stop-color="#2a1f18"/>
+    </linearGradient>
+    <radialGradient id="kobyzAura" cx="48%" cy="52%" r="45%">
+      <stop offset="0%" stop-color="#f5d77f" stop-opacity="0.85"/>
+      <stop offset="40%" stop-color="#d4af37" stop-opacity="0.35"/>
+      <stop offset="85%" stop-color="#08101e" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="riverGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0c1829"/>
+      <stop offset="50%" stop-color="#24416b"/>
+      <stop offset="100%" stop-color="#0c1829"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="600" height="400" fill="url(#korkytBg)"/>
+
+  <!-- Celestial Glow / Halo of the Music -->
+  <circle cx="290" cy="210" r="170" fill="url(#kobyzAura)"/>
+
+  <!-- Steppe Constellations -->
+  <g fill="#ffffff" opacity="0.6">
+    <circle cx="80" cy="60" r="1.5"/>
+    <circle cx="140" cy="95" r="1"/>
+    <circle cx="210" cy="45" r="2"/>
+    <circle cx="480" cy="80" r="1.5"/>
+    <circle cx="530" cy="50" r="1.2"/>
+    <circle cx="510" cy="120" r="2"/>
+  </g>
+
+  <!-- Syr Darya River at bottom -->
+  <path d="M0 320 Q160 290 300 320 T600 310 L600 400 L0 400 Z" fill="url(#riverGrad)" opacity="0.9"/>
+  <!-- River sound waves / ripples of immortality -->
+  <path d="M60 345 Q150 335 240 345 T420 340 T560 348" stroke="#d4af37" stroke-width="1.2" fill="none" opacity="0.5"/>
+  <path d="M100 365 Q220 355 340 365 T520 362" stroke="#f5d77f" stroke-width="0.8" fill="none" opacity="0.4"/>
+
+  <!-- Riverbank Rug / Magic Carpet of Korkyt -->
+  <ellipse cx="290" cy="305" rx="140" ry="24" fill="#1f1812" stroke="#d4af37" stroke-width="1"/>
+  
+  <!-- Korkyt Ata Silhouette sitting cross-legged -->
+  <g transform="translate(200, 120)">
+    <!-- Robe / Chapan -->
+    <path d="M90 60 C80 60 60 85 50 115 C40 145 35 175 30 185 L150 185 C145 175 140 145 130 115 C120 85 100 60 90 60 Z" fill="#141a24" stroke="#d4af37" stroke-width="0.8"/>
+    <!-- Head and Wise Sage Beard -->
+    <circle cx="90" cy="48" r="16" fill="#1c2430"/>
+    <!-- Traditional Sage Kalpak / Hat -->
+    <path d="M74 44 Q90 20 106 44 Z" fill="#2d3748" stroke="#d4af37" stroke-width="0.8"/>
+    <!-- Flowing Beard -->
+    <path d="M82 54 C82 72 90 85 90 85 C90 85 98 72 98 54 Z" fill="#e2e8f0" opacity="0.85"/>
+    
+    <!-- Sacred Kobyz Instrument -->
+    <!-- Instrument Neck & Head -->
+    <path d="M90 70 L90 165" stroke="#d4af37" stroke-width="4" stroke-linecap="round"/>
+    <!-- Head carved like swan (Aqqū) -->
+    <path d="M90 70 C85 64 82 58 87 56 C92 54 94 62 90 70" fill="none" stroke="#f5d77f" stroke-width="2.5"/>
+    <!-- Upper Sound Bowl -->
+    <ellipse cx="90" cy="120" rx="14" ry="16" fill="#10151f" stroke="#d4af37" stroke-width="1.8"/>
+    <!-- Lower Sound Bowl (covered in camel skin) -->
+    <ellipse cx="90" cy="155" rx="18" ry="20" fill="#261c14" stroke="#d4af37" stroke-width="2"/>
+    <!-- Horsehair Strings -->
+    <line x1="88" y1="62" x2="88" y2="168" stroke="#fcf6e8" stroke-width="1"/>
+    <line x1="92" y1="62" x2="92" y2="168" stroke="#fcf6e8" stroke-width="1"/>
+    
+    <!-- Bow (Jaq) in Hand -->
+    <path d="M55 130 Q90 142 125 130" stroke="#f5d77f" stroke-width="2" fill="none"/>
+    <line x1="56" y1="131" x2="124" y2="131" stroke="#ffffff" stroke-width="0.8" opacity="0.8"/>
+    <!-- Hands holding instrument -->
+    <ellipse cx="82" cy="100" rx="5" ry="4" fill="#d4af37"/>
+    <ellipse cx="110" cy="132" rx="5" ry="4" fill="#d4af37"/>
+  </g>
+
+  <!-- Musical Resonance Notes / Golden Waves defying Azrael (Death) -->
+  <g stroke="#f5d77f" stroke-width="1.5" fill="none" opacity="0.7">
+    <path d="M350 160 C380 140 400 170 430 150"/>
+    <path d="M370 190 C410 175 430 205 470 185"/>
+    <path d="M230 160 C200 140 180 170 150 150"/>
+  </g>
+
+  <!-- Kazakh Ornamental Corner Framing -->
+  <g stroke="#d4af37" stroke-width="1.5" fill="none" opacity="0.6">
+    <path d="M20 40 L20 20 L40 20 M20 20 C30 28 36 28 44 20"/>
+    <path d="M580 40 L580 20 L560 20 M580 20 C570 28 564 28 556 20"/>
+    <path d="M20 360 L20 380 L40 380"/>
+    <path d="M580 360 L580 380 L560 380"/>
+  </g>
+</svg>
+

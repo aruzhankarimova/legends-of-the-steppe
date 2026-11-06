@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#050a14"/>
+      <stop offset="40%" stop-color="#0b172a"/>
+      <stop offset="75%" stop-color="#192841"/>
+      <stop offset="100%" stop-color="#2d3238"/>
+    </linearGradient>
+    <radialGradient id="moonGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fdf4dc" stop-opacity="0.9"/>
+      <stop offset="40%" stop-color="#d4af37" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#0b172a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="goldHills" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2a2016"/>
+      <stop offset="50%" stop-color="#1b1712"/>
+      <stop offset="100%" stop-color="#0d0d0c"/>
+    </linearGradient>
+    <linearGradient id="frontHills" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1f1811"/>
+      <stop offset="100%" stop-color="#0a0806"/>
+    </linearGradient>
+    <pattern id="starPattern" width="120" height="120" patternUnits="userSpaceOnUse">
+      <circle cx="15" cy="20" r="1" fill="#ffffff" opacity="0.6"/>
+      <circle cx="85" cy="35" r="1.5" fill="#d4af37" opacity="0.7"/>
+      <circle cx="45" cy="80" r="0.8" fill="#ffffff" opacity="0.5"/>
+      <circle cx="110" cy="95" r="1.2" fill="#ffffff" opacity="0.8"/>
+      <circle cx="70" cy="110" r="0.8" fill="#d4af37" opacity="0.4"/>
+    </pattern>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="1200" height="600" fill="url(#skyGrad)"/>
+  <rect width="1200" height="400" fill="url(#starPattern)"/>
+
+  <!-- Celestial Steppe Moon -->
+  <circle cx="880" cy="160" r="140" fill="url(#moonGlow)"/>
+  <circle cx="880" cy="160" r="42" fill="#fcf6e8"/>
+  <circle cx="868" cy="152" r="38" fill="#0d1b30"/>
+
+  <!-- Constellations & Shanyrak star cluster -->
+  <g stroke="#d4af37" stroke-width="0.8" opacity="0.4" fill="none">
+    <line x1="220" y1="90" x2="270" y2="75"/>
+    <line x1="270" y1="75" x2="310" y2="110"/>
+    <line x1="310" y1="110" x2="360" y2="125"/>
+    <line x1="360" y1="125" x2="350" y2="170"/>
+    <line x1="350" y1="170" x2="300" y2="165"/>
+    <line x1="300" y1="165" x2="270" y2="75"/>
+  </g>
+  <circle cx="220" cy="90" r="2.5" fill="#ffffff"/>
+  <circle cx="270" cy="75" r="3" fill="#d4af37"/>
+  <circle cx="310" cy="110" r="2.5" fill="#ffffff"/>
+  <circle cx="360" cy="125" r="3" fill="#ffffff"/>
+  <circle cx="350" cy="170" r="2.5" fill="#d4af37"/>
+  <circle cx="300" cy="165" r="2" fill="#ffffff"/>
+
+  <!-- Distant Mountain Ridges (Alatau / Altai) -->
+  <path d="M0 380 L140 310 L280 350 L420 280 L560 340 L700 290 L850 360 L1020 300 L1200 370 L1200 600 L0 600 Z" fill="#131e2e" opacity="0.75"/>
+  
+  <!-- Mid Steppe Dunes / Hills -->
+  <path d="M0 430 Q220 360 460 410 T920 400 T1200 420 L1200 600 L0 600 Z" fill="url(#goldHills)"/>
+  
+  <!-- Kazakh Yurts (Kiyiz Üy) in the distance -->
+  <g transform="translate(680, 385)">
+    <!-- Yurt 1 -->
+    <path d="M40 35 C40 20 65 10 75 10 C85 10 110 20 110 35 Z" fill="#2d241c" stroke="#d4af37" stroke-width="0.7"/>
+    <rect x="40" y="35" width="70" height="20" fill="#241c15"/>
+    <line x1="75" y1="10" x2="75" y2="5" stroke="#d4af37" stroke-width="1"/>
+    <!-- Shanyrak crown highlight -->
+    <ellipse cx="75" cy="10" rx="8" ry="3" fill="#d4af37" opacity="0.8"/>
+    <!-- Yurt Door -->
+    <rect x="70" y="38" width="10" height="17" fill="#0d0a08"/>
+    <!-- Yurt 2 (Smaller) -->
+    <path d="M130 38 C130 26 150 18 158 18 C166 18 186 26 186 38 Z" fill="#241c15"/>
+    <rect x="130" y="38" width="56" height="15" fill="#1c1610"/>
+  </g>
+
+  <!-- Grazing Horse & Rider Silhouette on Ridge -->
+  <g transform="translate(340, 365)" fill="#0d0a08">
+    <!-- Horse -->
+    <path d="M25 32 C20 30 15 28 10 24 C8 20 12 14 15 12 C18 10 20 6 22 2 C24 0 28 2 27 6 C26 10 28 14 34 16 C42 16 52 18 56 22 C60 25 60 30 58 35 C58 40 59 48 58 52 C56 52 54 44 52 38 C48 38 44 46 42 52 C40 52 42 42 40 36 C34 36 32 44 30 52 C28 52 29 42 28 36 C27 40 26 48 24 52 C22 52 23 42 24 34 C20 34 18 36 15 42 Z"/>
+    <!-- Rider with Saukele / Borik hat -->
+    <path d="M30 16 C30 12 32 8 34 5 C35 3 36 1 37 0 C38 1 39 3 40 5 C41 9 40 14 38 16 C40 18 42 22 42 26 L30 26 Z"/>
+    <!-- Spear (Nayza) -->
+    <line x1="26" y1="-8" x2="44" y2="35" stroke="#d4af37" stroke-width="1.2"/>
+  </g>
+
+  <!-- Foreground Steppe Contour -->
+  <path d="M0 480 Q320 440 640 485 T1200 470 L1200 600 L0 600 Z" fill="url(#frontHills)"/>
+
+  <!-- Steppe Feather Grass (Selev / Boztorğay) -->
+  <g stroke="#8c734b" stroke-width="1" opacity="0.6">
+    <path d="M80 540 Q85 500 100 480 M82 540 Q88 495 106 485 M140 550 Q135 510 120 490"/>
+    <path d="M240 560 Q248 515 265 495 M242 560 Q252 510 275 500 M245 560 Q240 520 230 505"/>
+    <path d="M860 550 Q870 505 890 485 M862 550 Q875 500 900 490"/>
+    <path d="M1020 545 Q1025 505 1045 480 M1022 545 Q1032 500 1055 488"/>
+  </g>
+
+  <!-- Traditional Kazakh Ornamental Border at Bottom -->
+  <g fill="none" stroke="#d4af37" stroke-width="1.5" opacity="0.45" transform="translate(0, 582)">
+    <line x1="0" y1="0" x2="1200" y2="0"/>
+    <!-- Repeat Ram's Horn (Qoşqar Müyiz) Motif pattern -->
+    <path d="M50 0 C40 -12 25 -12 25 0 C25 8 32 12 40 8 M50 0 C60 -12 75 -12 75 0 C75 8 68 12 60 8
+             M150 0 C140 -12 125 -12 125 0 C125 8 132 12 140 8 M150 0 C160 -12 175 -12 175 0 C175 8 168 12 160 8
+             M250 0 C240 -12 225 -12 225 0 C225 8 232 12 240 8 M250 0 C260 -12 275 -12 275 0 C275 8 268 12 260 8
+             M350 0 C340 -12 325 -12 325 0 C325 8 332 12 340 8 M350 0 C360 -12 375 -12 375 0 C375 8 368 12 360 8
+             M450 0 C440 -12 425 -12 425 0 C425 8 432 12 440 8 M450 0 C460 -12 475 -12 475 0 C475 8 468 12 460 8
+             M550 0 C540 -12 525 -12 525 0 C525 8 532 12 540 8 M550 0 C560 -12 575 -12 575 0 C575 8 568 12 560 8
+             M650 0 C640 -12 625 -12 625 0 C625 8 632 12 640 8 M650 0 C660 -12 675 -12 675 0 C675 8 668 12 660 8
+             M750 0 C740 -12 725 -12 725 0 C725 8 732 12 740 8 M750 0 C760 -12 775 -12 775 0 C775 8 768 12 760 8
+             M850 0 C840 -12 825 -12 825 0 C825 8 832 12 840 8 M850 0 C860 -12 875 -12 875 0 C875 8 868 12 860 8
+             M950 0 C940 -12 925 -12 925 0 C925 8 932 12 940 8 M950 0 C960 -12 975 -12 975 0 C975 8 968 12 960 8
+             M1050 0 C1040 -12 1025 -12 1025 0 C1025 8 1032 12 1040 8 M1050 0 C1060 -12 1075 -12 1075 0 C1075 8 1068 12 1060 8
+             M1150 0 C1140 -12 1125 -12 1125 0 C1125 8 1132 12 1140 8 M1150 0 C1160 -12 1175 -12 1175 0 C1175 8 1168 12 1160 8"/>
+  </g>
+</svg>
+
