@@ -153,4 +153,4 @@ Projeyi kendi GitHub hesabınızda yayınlamak için aşağıdaki adımları sı
    - Yaklaşık 1-2 dakika içinde sayfanın üstünde yeşil renkle canlı site bağlantınız belirecektir:  
      *“Your site is live at https://.../”*
    - Bağlantıya tıklayarak sitenin tüm bölümlerini, görsellerini, mobil menüsünü ve bilgi yarışmasını canlı ortamda test edebilirsiniz.
-
+https://aruzhankarimova.github.io/legends-of-the-steppe/
